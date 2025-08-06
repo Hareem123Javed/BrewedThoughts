@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Thoughts | Coffee & Blogging</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+    <!-- Dark mode toggle checkbox (hidden) -->
+    <input type="checkbox" id="dark-mode-toggle">
+    
+    <!-- Mobile menu toggle checkbox (hidden) -->
+    <input type="checkbox" id="mobile-menu-toggle">
+
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo-container">
+                <img src="logo1.png" alt="Coffee cup logo" class="logo-img">
+                <span class="logo-text">Brewed<span>Thoughts</span></span>
+            </a>
+            
+            <label for="mobile-menu-toggle" class="mobile-menu-btn">☰</label>
+            
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Only moon icon that toggles the theme -->
+            <label for="dark-mode-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </label>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Welcome to Brewed Thoughts</h1>
+            <p>Where ideas steep slowly and stories are served warm. This is your cozy corner on the internet — a blend of reflections, inspiration, and everyday musings. Whether you are here for thoughtful reads, fresh perspectives, or just a quiet moment with words, we have brewed something just for you.</p>
+            <a href="#" class="btn">Start Reading</a>
+        </div>
+    </section>
+
+    <div class="main-content-wrapper">
+        <main class="container main-content">
+            <section class="posts">
+                <article class="post">
+                    <img src="p1.png" alt="Coffee and notebook" class="post-img">
+                    <div class="post-content">
+                        <h2 class="post-title">The Art of Morning Rituals</h2>
+                        <div class="post-meta">
+                            <span>By Jane Doe</span>
+                            <span>June 15, 2023</span>
+                            <span>Lifestyle</span>
+                        </div>
+                        <p class="post-excerpt">Discover how establishing a mindful morning routine can transform your productivity and mental clarity throughout the day. From journaling to meditation, we explore various practices to start your day right.</p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="p2.png" alt="Technology" class="post-img">
+                    <div class="post-content">
+                        <h2 class="post-title">The Future of Web Development</h2>
+                        <div class="post-meta">
+                            <span>By John Smith</span>
+                            <span>June 10, 2023</span>
+                            <span>Technology</span>
+                        </div>
+                        <p class="post-excerpt">Exploring the emerging trends in web development for 2023 and beyond. From AI integration to new CSS features, learn what technologies will shape the digital landscape in coming years.</p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="p3.png" alt="Travel" class="post-img">
+                    <div class="post-content">
+                        <h2 class="post-title">Hidden Gems: Europe's Lesser-Known Cities</h2>
+                        <div class="post-meta">
+                            <span>By Emily Wilson</span>
+                            <span>June 5, 2023</span>
+                            <span>Travel</span>
+                        </div>
+                        <p class="post-excerpt">Move over Paris and Rome! These underrated European destinations offer authentic experiences without the crowds. Our travel expert shares her top picks for off-the-beaten-path adventures.</p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div>
+                </article>
+            </section>
+
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Search</h3>
+                    <form class="search-form">
+                        <input type="text" placeholder="Search..." class="search-input">
+                        <button type="submit" class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul class="categories-list">
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Productivity</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Recent Posts</h3>
+                    <div class="recent-post">
+                        <img src="r1.jpg" alt="Recent post" class="recent-post-img">
+                        <div>
+                            <a href="#" class="recent-post-title">Coffee Brewing Methods Compared</a>
+                            <div class="recent-post-date">May 28, 2023</div>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <img src="r2.png" alt="Recent post" class="recent-post-img">
+                        <div>
+                            <a href="#" class="recent-post-title">CSS Grid vs Flexbox</a>
+                            <div class="recent-post-date">May 22, 2023</div>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <img src="r3.jpg" alt="Recent post" class="recent-post-img">
+                        <div>
+                            <a href="#" class="recent-post-title">Hiking for Beginners</a>
+                            <div class="recent-post-date">May 15, 2023</div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Categories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Food</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Brewed Thoughts. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
